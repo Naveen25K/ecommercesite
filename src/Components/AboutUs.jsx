@@ -42,7 +42,7 @@ const AboutUs = () => {
           </div>
           <div className="col-md-6 d-flex justify-content-center">
             <img
-              src="./assets/boat-official.jpg"
+              src="/assets/boat-official.jpg"
               alt="boat product img"
               height={"auto"}
               width={"100%"}

@@ -35,21 +35,21 @@ const Home = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./assets/six.jpg"
+              src="/assets/six.jpg"
               className="d-block w-100"
               alt="hero first img"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./assets/seven.jpg"
+              src="/assets/seven.jpg"
               className="d-block w-100"
               alt="hero second img"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./assets/eight.jpg"
+              src="/assets/eight.jpg"
               className="d-block w-100"
               alt="hero third img"
             />
