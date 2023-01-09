@@ -24,7 +24,7 @@ const Header = () => {
           >
             <NavLink to="/" className="store-name fs-3 fw-bold">
               <img
-                src="./ecommercesite/assets/boat-logo.png"
+                src="./ecommercesite/assets/logo.png"
                 className="w-75"
                 alt="boat logo"
               />
