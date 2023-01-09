@@ -4,7 +4,7 @@ const ProductData = [
     title: "Boat Earbuds",
     price: 1250,
     desc: "Using color to add meaning only provides a visual indication, which will not done.",
-    img: "./ecommercesite/assets/products/eleven.png",
+    img: "./assets/products/eleven.png",
     category: "airdopes",
   },
 
@@ -13,7 +13,7 @@ const ProductData = [
     title: "Boat Headphone",
     price: 2000,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/twelve.png",
+    img: "./assets/products/twelve.png",
     category: "headphones",
   },
 
@@ -22,7 +22,7 @@ const ProductData = [
     title: "Boat Watch",
     price: 4200,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/thirteen.png",
+    img: "./assets/products/thirteen.png",
     category: "earphones",
   },
 
@@ -31,7 +31,7 @@ const ProductData = [
     title: "Boat Speaker",
     price: 1900,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/fourteen.png",
+    img: "./assets/products/fourteen.png",
     category: "airdopes",
   },
 
@@ -40,7 +40,7 @@ const ProductData = [
     title: "Boat Earphone",
     price: 1250,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/fifteen.png",
+    img: "./assets/products/fifteen.png",
     category: "headphones",
   },
 
@@ -49,7 +49,7 @@ const ProductData = [
     title: "Boat Rockerz 255",
     price: 1600,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/sixteen.png",
+    img: "./assets/products/sixteen.png",
     category: "earphones",
   },
 
@@ -58,7 +58,7 @@ const ProductData = [
     title: "Boat watch 25 S",
     price: 4900,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/seventeen.png",
+    img: "./assets/products/seventeen.png",
     category: "watch",
   },
 
@@ -67,7 +67,7 @@ const ProductData = [
     title: "Boat Earbuds 210 S",
     price: 7100,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/eighteen.png",
+    img: "./assets/products/eighteen.png",
     category: "watch",
   },
 
@@ -76,7 +76,7 @@ const ProductData = [
     title: "Boat earbuds 412 BC",
     price: 2500,
     desc: "Using color to add meaning only provides a visual indication, which will notdone.",
-    img: "./ecommercesite/assets/products/nineteen.png",
+    img: "./assets/products/nineteen.png",
     category: "airdopes",
   },
 ];
