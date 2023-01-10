@@ -8,7 +8,7 @@ const Cart = () => {
     <>
       <NavLink to="/cart" className="btn btn-primary">
         <span className="fa fa-cart-plus me-2"></span>
-        cart ({state.length})
+        cart {state.length}
       </NavLink>
     </>
   );

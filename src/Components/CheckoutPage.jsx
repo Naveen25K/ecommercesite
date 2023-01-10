@@ -1,6 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { delItem } from "../redux/action";
+import { delItem, emptyItem } from "../redux/action";
 
 const CheckoutPage = () => {
   const state = useSelector((state) => state.addItems);
@@ -152,12 +152,10 @@ const CheckoutPage = () => {
                       <td>{val.title}</td>
                       <td>{`${val.price} ₹`}</td>
                       <td>
-                        <a href="#">
-                          <i
-                            className="fa fa-trash"
-                            onClick={() => removeItems(val)}
-                          />
-                        </a>
+                        <i
+                          className="fa fa-trash"
+                          onClick={() => removeItems(val)}
+                        />
                       </td>
                     </tr>
                   );
@@ -170,12 +168,13 @@ const CheckoutPage = () => {
               <h2> {`${totalAmount} ₹`} </h2>
             </div>
 
-            <NavLink
-              to="Proceed-to-pay"
+            <Link
+              to="/delivered"
+              onClick={() => dispatch(emptyItem())}
               className="btn btn-outline-danger mt-5"
             >
               proceed To Pay
-            </NavLink>
+            </Link>
           </div>
         </div>
       </div>

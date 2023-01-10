@@ -12,6 +12,12 @@ export const delItem = (productDetail) => {
   };
 };
 
+export const emptyItem = () => {
+  return {
+    type: "EMPTYITEM",
+  };
+};
+
 export const filtProduct = (productDetail) => {
   return {
     type: "FILTER_PRODUCT",

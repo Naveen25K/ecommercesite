@@ -8,6 +8,8 @@ const addItems = (state = addItem, action) => {
       return (state = state.filter((x) => {
         return x.id !== action.payload.id;
       }));
+    case "EMPTYITEM":
+      return (state = []);
     default:
       return state;
   }

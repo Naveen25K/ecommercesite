@@ -8,6 +8,7 @@ import NotFound from "./Components/NotFound";
 import ProductDetail from "./Components/ProductDetail";
 import ShowCartItems from "./Components/ShowCartItems";
 import CheckoutPage from "./Components/CheckoutPage";
+import Delivered from "./Components/Delivered";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path="/checkout-page" element={<CheckoutPage />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/cart" element={<ShowCartItems />} />
+        <Route exact path="/delivered" element={<Delivered />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
