@@ -7,6 +7,13 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
         <div className="container-fluid">
+          <NavLink to="/" className="store-name navbar-brand fs-3 fw-bold">
+            <img
+              src="/ecommercesite/assets/logo.png"
+              className="w-75"
+              alt="boat logo"
+            />
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -19,18 +26,11 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse d-flex justify-content-between"
+            className="collapse navbar-collapse "
             id="navbarSupportedContent"
           >
-            <NavLink to="/" className="store-name fs-3 fw-bold">
-              <img
-                src="/ecommercesite/assets/logo.png"
-                className="w-75"
-                alt="boat logo"
-              />
-            </NavLink>
             <ul
-              className="navbar-nav mb-2 mb-lg-0"
+              className="navbar-nav mb-2 mb-lg-0 mx-auto"
               style={{ marginLeft: "50px" }}
             >
               <li className="nav-item">

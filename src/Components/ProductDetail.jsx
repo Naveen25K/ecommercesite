@@ -48,7 +48,7 @@ const ProductDetail = () => {
               <img
                 id="magnifier"
                 src={finalProduct.img}
-                alt="one image"
+                alt={finalProduct.title}
                 ref={imgMagnifier}
               />
             </div>
